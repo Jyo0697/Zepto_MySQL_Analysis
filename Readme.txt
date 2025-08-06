@@ -90,7 +90,6 @@ Zepto_SQL_Analysis/
 ## 📌 Example Queries
 
 ### **Top 10 Discounted Products**
-```sql
 SELECT DISTINCT NAME, Category, MRP, DISCOUNTPERCENT
 FROM ZEPTO_V2
 ORDER BY DISCOUNTPERCENT DESC
